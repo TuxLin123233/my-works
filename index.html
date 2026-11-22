@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Lin Sifan 的作品索引：网站、像素、游戏与小实验，以及 GitHub 上的头像和贡献记录。">
+  <meta name="theme-color" content="#f3ede2">
+  <meta name="author" content="Lin Sifan">
+  <meta name="copyright" content="© 2026 Lin Sifan">
+  <meta property="og:title" content="Lin Sifan · 作品索引">
+  <meta property="og:description" content="网站、像素、游戏与小实验，以及 GitHub 上的贡献记录。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tuxlin123233.github.io/my-works/">
+  <meta property="og:image" content="https://tuxlin123233.github.io/my-works/assets/og-cover.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Lin Sifan · 作品索引</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css?v=20261122-1">
+</head>
+<body>
+  <header class="site-head">
+    <div class="shell head-inner">
+      <a class="brand" href="./" aria-label="作品索引首页">
+        <span class="brand-mark" aria-hidden="true">L</span>
+        <span class="brand-text">Lin Sifan<small>WORKS INDEX</small></span>
+      </a>
+      <nav class="head-nav" aria-label="页面导航">
+        <a href="#sites">网站</a>
+        <a href="#projects">项目</a>
+        <a href="#about">关于</a>
+        <a class="head-nav__github" href="https://github.com/TuxLin123233" target="_blank" rel="noopener">GitHub ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero shell">
+      <div class="hero__copy">
+        <p class="kicker"><span>WORKS INDEX</span><span>EST. 2026</span></p>
+        <h1>把做过的东西<span>放在一个地方。</span></h1>
+        <p class="hero__lede">网站、像素、游戏、一点点硬件。<br>还有一个放在 GitHub 上的公开记录。</p>
+        <div class="hero__actions">
+          <a class="btn btn--solid" href="#sites">看作品</a>
+          <a class="btn btn--line" href="https://github.com/TuxLin123233" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </div>
+
+      <aside class="github-card" aria-label="GitHub 资料与贡献记录">
+        <a class="github-card__top" href="https://github.com/TuxLin123233" target="_blank" rel="noopener">
+          <img class="github-card__avatar" src="assets/avatar.jpg" alt="TuxLin123233 的 GitHub 头像" width="460" height="460">
+          <span class="github-card__who">
+            <strong>@TuxLin123233</strong>
+            <span>Lin Sifan on GitHub</span>
+          </span>
+          <span class="github-card__arrow" aria-hidden="true">↗</span>
+        </a>
+        <p class="github-card__note">写代码、做小东西，顺便攒贡献格子。</p>
+        <dl class="github-stats">
+          <div><dt>REPOS</dt><dd data-github="repos">8</dd></div>
+          <div><dt>CONTRIBUTIONS</dt><dd data-github="contributions">544</dd></div>
+          <div><dt>SINCE</dt><dd data-github="since">2025</dd></div>
+        </dl>
+        <div class="contrib">
+          <a class="contrib__link" href="https://github.com/TuxLin123233" target="_blank" rel="noopener" aria-label="在 GitHub 查看贡献记录">
+            <div class="contrib__grid" id="contrib-grid" aria-label="过去一年的 GitHub 贡献格子"></div>
+          </a>
+          <div class="contrib__foot">
+            <span id="contrib-range">2025.11 — 2026.11</span>
+            <span>过去一年</span>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section shell" id="sites" aria-labelledby="sites-title">
+      <header class="section__head" data-reveal>
+        <div>
+          <p class="kicker"><span>SITES</span><span>线上作品</span></p>
+          <h2 id="sites-title">六个可以点开的网站</h2>
+        </div>
+        <p class="section__note">从音乐、食物到像素和游戏。</p>
+      </header>
+      <div class="site-grid" id="site-list"></div>
+    </section>
+
+    <section class="section shell" id="projects" aria-labelledby="projects-title">
+      <header class="section__head" data-reveal>
+        <div>
+          <p class="kicker"><span>REPOS</span><span>代码与实验</span></p>
+          <h2 id="projects-title">在 GitHub 上的项目</h2>
+        </div>
+        <p class="section__note">源码、文档和没做完的实验。</p>
+      </header>
+      <div class="project-list" id="project-list"></div>
+    </section>
+
+    <section class="about shell" id="about" aria-labelledby="about-title">
+      <div class="about__head" data-reveal>
+        <p class="kicker"><span>ABOUT</span><span>关于</span></p>
+        <h2 id="about-title">一个人做，<br>慢慢更新。</h2>
+      </div>
+      <div class="about__body" data-reveal>
+        <p>这个页面只是入口。作品散落在 GitHub Pages、Cloudflare Pages 和 GitHub 仓库里，有的已经稳定，有的还在长。</p>
+        <p>音乐和零食是生活里的收藏，像素小镇和这辆小车是更偏实验的部分。所有东西都自己写、自己部署。</p>
+        <p>如果你在 GitHub 上看到感兴趣的项目，欢迎点个 star，或者直接开 issue。</p>
+        <a class="about__link" href="https://github.com/TuxLin123233" target="_blank" rel="noopener">去 GitHub 看看 ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell">
+      <p class="footer__line">Lin Sifan · 作品索引</p>
+      <div class="footer__grid">
+        <p>网站、像素、游戏，还有一些没做完的实验。</p>
+        <p class="footer__links">
+          <a href="https://github.com/TuxLin123233" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://tuxlin123233.github.io/my-play-list/" target="_blank" rel="noopener">唱片档案</a>
+          <a href="https://tuxlin123233.github.io/my-food-list/" target="_blank" rel="noopener">零食柜</a>
+        </p>
+        <p class="footer__copy">© <span id="year">2026</span> Lin Sifan</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" id="to-top" type="button" aria-label="回到顶部">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 14 6-6 6 6"/></svg>
+  </button>
+
+  <script src="js/data.js?v=20261122-1"></script>
+  <script src="js/app.js?v=20261122-1"></script>
+</body>
+</html>
