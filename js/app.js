@@ -98,6 +98,37 @@
     return `${date.getUTCFullYear()}.${pad(date.getUTCMonth() + 1)}`;
   }
 
+  const STATUS_LABEL = { project: "项目", stated: "自述", rusty: "生疏" };
+
+  function knowledgeBranchHTML(branch, index) {
+    return `
+      <section class="tree-branch" aria-labelledby="branch-${index}" style="--branch:${ACCENTS[branch.color] || ACCENTS.ink}">
+        <header class="tree-branch__head">
+          <span class="tree-branch__no">${String(index + 1).padStart(2, "0")}</span>
+          <h3 id="branch-${index}">${esc(branch.name)}</h3>
+          <span class="tree-branch__en">${esc(branch.en)}</span>
+        </header>
+        <ul class="tree-branch__leaves">
+          ${branch.leaves.map((leaf) => `
+            <li class="tree-leaf tree-leaf--${esc(leaf.status)}">
+              <span class="tree-leaf__dot" aria-hidden="true"></span>
+              <span class="tree-leaf__text"><strong>${esc(leaf.name)}</strong><span>${esc(leaf.note)}</span></span>
+              <em>${STATUS_LABEL[leaf.status] || "接触"}</em>
+            </li>`).join("")}
+        </ul>
+      </section>`;
+  }
+
+  function initKnowledge() {
+    const tree = $("#knowledge-tree");
+    if (tree && DATA.knowledge) {
+      tree.innerHTML = DATA.knowledge.branches.map(knowledgeBranchHTML).join("");
+      observeReveals(tree);
+    }
+    const excluded = $("#ai-excluded");
+    if (excluded && DATA.knowledge) excluded.textContent = DATA.knowledge.excluded.join(" · ");
+  }
+
   function initProfile() {
     $$("[data-github]").forEach((element) => {
       const value = DATA.profile[element.dataset.github];
@@ -134,6 +165,7 @@
 
   initProfile();
   initLists();
+  initKnowledge();
   observeReveals(document);
   initTop();
 

@@ -36,6 +36,21 @@
 - my-play-list
 - my-food-list
 
+## 知识树
+
+页面里有一张知识树：
+
+- 语言：JavaScript / Python / C++ / Java / HTML-CSS
+- 框架 / 库：Vue 3、Pygame Zero、MicroPython、Rich / requests、Arduino Keypad、Canvas 2D
+- 硬件：ESP32 / Arduino、嘉立创 PCB、按键 / 蜂鸣器
+- 工具：Git / GitHub、Linux、Node / pnpm、Python 工具链
+
+树节点区分「有自己项目证据」「自述 / 在学」「以前会 · 现在生疏」。AI 主要用来教学和协作，本地项目是自己写的；AI 协作过的工程细节单列在下面，不计入能力证据。
+
+<p align="center">
+  <img src="docs/preview-knowledge.jpg" alt="知识树" width="100%">
+</p>
+
 ## 数据更新
 
 GitHub 贡献格子数据缓存在 `data/contributions.json`，来自公开的贡献统计接口；页面构建时生成 `js/data.js`。
