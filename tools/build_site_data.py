@@ -51,12 +51,13 @@ KNOWLEDGE = {
         {"name": "语言", "en": "LANGUAGES", "color": "ink", "leaves": [
             {"name": "JavaScript", "note": "2048 · Canvas", "status": "project"},
             {"name": "Python", "note": "Pygame Zero · 小工具 · Pico W", "status": "project"},
-            {"name": "C++", "note": "Arduino · LED_Blink", "status": "project"},
+            {"name": "C", "note": "Arduino · 基础 C", "status": "project"},
             {"name": "Java", "note": "基础语法 · 现在生疏", "status": "rusty"},
             {"name": "HTML / CSS", "note": "2048 · 页面排版", "status": "project"},
         ]},
         {"name": "框架 / 库", "en": "FRAMEWORKS", "color": "sage", "leaves": [
             {"name": "Vue 3", "note": "会框架 · 项目多为 AI 协作", "status": "stated"},
+            {"name": "Godot", "note": "游戏引擎 · 浅尝", "status": "light"},
             {"name": "Pygame Zero", "note": "2D 游戏原型", "status": "project"},
             {"name": "MicroPython", "note": "Pico W · WiFi 留言板", "status": "project"},
             {"name": "Rich / requests", "note": "小林召唤器 · 音乐下载器", "status": "project"},
@@ -64,7 +65,7 @@ KNOWLEDGE = {
             {"name": "Canvas 2D", "note": "2048 渲染与交互", "status": "project"},
         ]},
         {"name": "硬件 / 电子", "en": "HARDWARE", "color": "blue", "leaves": [
-            {"name": "ESP32 / Arduino", "note": "LED_Blink · 外设", "status": "project"},
+            {"name": "ESP32 / Arduino", "note": "C 风格 · LED_Blink · 外设", "status": "project"},
             {"name": "嘉立创 PCB", "note": "基础电路板绘制", "status": "stated"},
             {"name": "按键 / 蜂鸣器", "note": "Keypad · 音符输出", "status": "project"},
         ]},
