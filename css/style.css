@@ -297,6 +297,9 @@ img { max-width: 100%; display: block; }
 .tree-note { margin: 10px 0 0; padding-top: 10px; border-top: 1px dashed var(--line); font-size: 10.5px; line-height: 1.7; color: var(--muted); }
 .tree-note strong { color: var(--ink-soft); font-weight: 500; }
 .tree-note__sub { display: inline-block; margin-top: 4px; color: var(--muted); }
+.tree-note--archive { color: var(--ink-soft); }
+.tree-note--archive a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line-strong); }
+.tree-note--archive a:hover { color: var(--accent); border-color: var(--accent); }
 
 /* About */
 

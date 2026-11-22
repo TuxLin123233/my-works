@@ -42,6 +42,10 @@ PROJECTS = [
      "url": "https://github.com/TuxLin123233/my-play-list"},
     {"name": "my-food-list", "desc": "零食柜源码", "lang": "HTML / CSS / JS",
      "url": "https://github.com/TuxLin123233/my-food-list"},
+    {"name": "seven-day-pocket-market", "desc": "七日口袋市场 · 早期项目，已停止维护", "lang": "Gitee · 已放弃",
+     "url": "https://gitee.com/linsifan123/seven-day-pocket-market"},
+    {"name": "Duo-Town", "desc": "早期作品，已停止维护", "lang": "GitHub · 已放弃",
+     "url": "https://github.com/TuxLin123233/Duo-Town"},
 ]
 
 
