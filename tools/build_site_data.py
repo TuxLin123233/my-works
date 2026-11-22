@@ -58,6 +58,7 @@ KNOWLEDGE = {
         {"name": "框架 / 库", "en": "FRAMEWORKS", "color": "sage", "leaves": [
             {"name": "Vue 3", "note": "会框架 · 项目多为 AI 协作", "status": "stated"},
             {"name": "Godot", "note": "游戏引擎 · 浅尝", "status": "light"},
+            {"name": "Tkinter / CustomTkinter", "note": "存档管理器 · 桌面 GUI", "status": "project"},
             {"name": "Pygame Zero", "note": "2D 游戏原型", "status": "project"},
             {"name": "MicroPython", "note": "Pico W · WiFi 留言板", "status": "project"},
             {"name": "Rich / requests", "note": "小林召唤器 · 音乐下载器", "status": "project"},
@@ -76,7 +77,7 @@ KNOWLEDGE = {
             {"name": "Python 工具链", "note": "venv · requests · PyInstaller", "status": "project"},
         ]},
     ],
-    "excluded": ["Vite / Pinia / Vue Router（Vue 工程细节）", "Cloudflare Pages / KV", "CustomTkinter / Tkinter", "静态站脚手架"],
+    "excluded": ["Vite / Pinia / Vue Router（Vue 工程细节）", "Cloudflare Pages / KV", "静态站脚手架"],
 }
 
 
