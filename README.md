@@ -41,7 +41,7 @@
 页面里有一张知识树：
 
 - 语言：JavaScript / Python / C / Java / HTML-CSS
-- 框架 / 库：Vue 3、Godot（浅尝）、Tkinter / CustomTkinter、Pygame Zero、MicroPython、Rich / requests、Arduino Keypad、Canvas 2D
+- 框架 / 库：Vue 3、Godot（浅尝）、Tkinter / CustomTkinter、Pygame Zero、MicroPython、Rich / requests、Arduino Keypad、DOM / CSS
 - 硬件：ESP32 / Arduino、嘉立创 PCB、按键 / 蜂鸣器
 - 工具：Git / GitHub、Linux、Node / pnpm、Python 工具链
 

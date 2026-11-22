@@ -49,7 +49,7 @@ KNOWLEDGE = {
     "root": "Lin Sifan",
     "branches": [
         {"name": "语言", "en": "LANGUAGES", "color": "ink", "leaves": [
-            {"name": "JavaScript", "note": "2048 · Canvas", "status": "project"},
+            {"name": "JavaScript", "note": "2048 · DOM", "status": "project"},
             {"name": "Python", "note": "Pygame Zero · 小工具 · Pico W", "status": "project"},
             {"name": "C", "note": "Arduino · 基础 C", "status": "project"},
             {"name": "Java", "note": "基础语法 · 现在生疏", "status": "rusty"},
@@ -63,7 +63,7 @@ KNOWLEDGE = {
             {"name": "MicroPython", "note": "Pico W · WiFi 留言板", "status": "project"},
             {"name": "Rich / requests", "note": "小林召唤器 · 音乐下载器", "status": "project"},
             {"name": "Arduino Keypad", "note": "键盘 · 蜂鸣器", "status": "project"},
-            {"name": "Canvas 2D", "note": "2048 渲染与交互", "status": "project"},
+            {"name": "DOM / CSS", "note": "2048 棋盘与动画", "status": "project"},
         ]},
         {"name": "硬件 / 电子", "en": "HARDWARE", "color": "blue", "leaves": [
             {"name": "ESP32 / Arduino", "note": "C 风格 · LED_Blink · 外设", "status": "project"},
