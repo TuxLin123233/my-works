@@ -35,15 +35,15 @@
 - PixelSpace
 - my-play-list
 - my-food-list
-- seven-day-pocket-market（Gitee，早期项目，已放弃）
-- Duo-Town（早期作品，已放弃）
+- seven-day-pocket-market（Gitee，自己写的早期项目，已放弃）
+- Duo-Town（Django + Vue 3 早期团队项目，已放弃）
 
 ## 知识树
 
 页面里有一张知识树：
 
 - 语言：JavaScript / Python / C / Java / HTML-CSS
-- 框架 / 库：Vue 3、Godot（浅尝）、Tkinter / CustomTkinter、Pygame Zero、MicroPython、Rich / requests、Arduino Keypad、DOM / CSS
+- 框架 / 库：Vue 3、Django（早期团队接触）、Godot（浅尝）、Tkinter / CustomTkinter、Pygame Zero、MicroPython、Rich / requests、Arduino Keypad、DOM / CSS
 - 硬件：ESP32 / Arduino、嘉立创 PCB、按键 / 蜂鸣器
 - 工具：Git / GitHub、Linux、Node / pnpm、Python 工具链
 

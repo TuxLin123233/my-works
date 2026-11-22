@@ -44,7 +44,7 @@ PROJECTS = [
      "url": "https://github.com/TuxLin123233/my-food-list"},
     {"name": "seven-day-pocket-market", "desc": "七日口袋市场 · 早期项目，已停止维护", "lang": "Gitee · 已放弃",
      "url": "https://gitee.com/linsifan123/seven-day-pocket-market"},
-    {"name": "Duo-Town", "desc": "早期作品，已停止维护", "lang": "GitHub · 已放弃",
+    {"name": "Duo-Town", "desc": "Duo小镇 · Django + Vue 3 早期团队项目，已停止维护", "lang": "Python / Vue 3 · 已放弃",
      "url": "https://github.com/TuxLin123233/Duo-Town"},
 ]
 
@@ -60,8 +60,9 @@ KNOWLEDGE = {
             {"name": "HTML / CSS", "note": "2048 · 页面排版", "status": "project"},
         ]},
         {"name": "框架 / 库", "en": "FRAMEWORKS", "color": "sage", "leaves": [
-            {"name": "Vue 3", "note": "会框架 · 项目多为 AI 协作", "status": "stated"},
+            {"name": "Vue 3", "note": "Duo-Town 前端 · 早期团队", "status": "project"},
             {"name": "Godot", "note": "游戏引擎 · 浅尝", "status": "light"},
+            {"name": "Django", "note": "Duo-Town 后端 · 早期团队", "status": "stated"},
             {"name": "Tkinter / CustomTkinter", "note": "存档管理器 · 桌面 GUI", "status": "project"},
             {"name": "Pygame Zero", "note": "2D 游戏原型", "status": "project"},
             {"name": "MicroPython", "note": "Pico W · WiFi 留言板", "status": "project"},
