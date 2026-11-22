@@ -242,6 +242,11 @@ img { max-width: 100%; display: block; }
 .footer__links a { color: var(--foot-muted); text-decoration: none; }
 .footer__links a:hover { color: var(--foot-ink); }
 .footer__copy { white-space: nowrap; }
+.footer__privacy {
+  margin: 18px 0 0; padding-top: 14px; border-top: 1px solid var(--foot-line);
+  font-family: var(--font-mono); font-size: 8px; line-height: 1.8;
+  letter-spacing: .02em; color: var(--foot-muted);
+}
 
 /* To top */
 

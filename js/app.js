@@ -45,7 +45,7 @@
 
   function siteHTML(site, index) {
     return `
-      <a class="site-card" href="${esc(site.url)}" target="_blank" rel="noopener"
+      <a class="site-card" href="${esc(site.url)}" target="_blank" rel="noopener noreferrer"
         data-reveal style="--i:${index}; --card-accent:${ACCENTS[site.accent] || ACCENTS.ink}">
         <span class="site-card__top">
           <span class="site-card__no">${esc(site.no)}</span>
@@ -60,7 +60,7 @@
 
   function projectHTML(project, index) {
     return `
-      <a class="project-row" href="${esc(project.url)}" target="_blank" rel="noopener"
+      <a class="project-row" href="${esc(project.url)}" target="_blank" rel="noopener noreferrer"
         data-reveal style="--i:${index}">
         <span class="project-row__no">${String(index + 1).padStart(2, "0")}</span>
         <span class="project-row__name"><strong>${esc(project.name)}</strong><span>${esc(project.desc)}</span></span>
@@ -87,9 +87,8 @@
       <div class="contrib__week">
         ${week.map((day) => {
           if (!day) return `<span class="contrib__cell is-empty"></span>`;
-          const label = `${day.d} · ${day.c} contributions`;
           const level = Math.max(0, Math.min(4, Number(day.l) || 0));
-          return `<span class="contrib__cell lvl-${level}" title="${esc(label)}" aria-label="${esc(label)}"></span>`;
+          return `<span class="contrib__cell lvl-${level}" aria-hidden="true"></span>`;
         }).join("")}
       </div>`).join("");
   }
