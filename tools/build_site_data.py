@@ -42,7 +42,7 @@ PROJECTS = [
      "url": "https://github.com/TuxLin123233/my-play-list"},
     {"name": "my-food-list", "desc": "零食柜源码", "lang": "HTML / CSS / JS",
      "url": "https://github.com/TuxLin123233/my-food-list"},
-    {"name": "seven-day-pocket-market", "desc": "七日口袋集市 · Django + Vue 3 限时交易站，待部署", "lang": "Python / Vue 3 · 待部署",
+    {"name": "seven-day-pocket-market", "desc": "七日口袋集市 · Django + Vue 3 限时交易站，未部署", "lang": "Python / Vue 3 · 未部署",
      "url": "https://gitee.com/linsifan123/seven-day-pocket-market"},
     {"name": "Duo-Town", "desc": "Duo小镇 · Django + Vue 3 早期团队项目，已停止维护", "lang": "Python / Vue 3 · 已放弃",
      "url": "https://github.com/TuxLin123233/Duo-Town"},
