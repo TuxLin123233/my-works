@@ -45,7 +45,7 @@
 - 硬件：ESP32 / Arduino、嘉立创 PCB、按键 / 蜂鸣器
 - 工具：Git / GitHub、Linux、Node / pnpm、Python 工具链
 
-树节点区分「有自己项目证据」「自述 / 在学」「以前会 · 现在生疏」。AI 主要用来教学和协作，本地项目是自己写的；AI 协作过的工程细节单列在下面，不计入能力证据。
+树节点区分「有自己项目证据」「自述 / 在学」「以前会 · 现在生疏」。AI 主要用来教学和协作；本地项目 2048、Pygame Zero、音乐下载器、家庭留言板、小林召唤器、LED_Blink 都是自己写的，AI 协作过的工程细节单列在下面，不计入能力证据。
 
 <p align="center">
   <img src="docs/preview-knowledge.jpg" alt="知识树" width="100%">

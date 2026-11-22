@@ -59,7 +59,7 @@ KNOWLEDGE = {
             {"name": "Vue 3", "note": "会框架 · 项目多为 AI 协作", "status": "stated"},
             {"name": "Pygame Zero", "note": "2D 游戏原型", "status": "project"},
             {"name": "MicroPython", "note": "Pico W · WiFi 留言板", "status": "project"},
-            {"name": "Rich / requests", "note": "终端工具 / 下载器", "status": "project"},
+            {"name": "Rich / requests", "note": "小林召唤器 · 音乐下载器", "status": "project"},
             {"name": "Arduino Keypad", "note": "键盘 · 蜂鸣器", "status": "project"},
             {"name": "Canvas 2D", "note": "2048 渲染与交互", "status": "project"},
         ]},
